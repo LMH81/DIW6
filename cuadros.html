@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        *{
+            margin:0;
+
+        }
+        div {
+
+            width:20vmax;
+            height: 20vmax;
+            background-color: rgba(237,119,80,0.5);
+            position:fixed;
+        }
+
+        div.r:nth-last-of-type(2){
+            top:0;
+            left:0;
+            border-bottom-right-radius: 50%;
+          
+            
+        }
+
+        div.r:nth-last-of-type(3){
+           top:0;
+           right:0;
+           border-bottom-left-radius: 50%;
+
+        }
+
+        div.r:nth-last-of-type(4){
+           bottom:0;
+           left:0;
+           border-top-right-radius: 50%;
+
+        }
+
+        div.r:nth-last-of-type(5){
+            bottom:0;
+           right:0;
+           border-top-left-radius: 50%;
+
+        }
+        .fondo{
+
+            width: 100vw;
+            height: 100vh;
+            opacity:0.5 ;            
+            background-image: url("https://picsum.photos/400");
+            background-repeat: no-repeat;
+            background-position: center;
+            
+        }
+        main{
+            position: fixed;
+            z-index: 20;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="fondo"></div>
+    <div class="r"></div>
+    <div class="r"></div>
+    <div class="r"></div>
+    <div class="r"></div>
+
+    <main>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis reiciendis rem blanditiis a, quaerat aliquam porro quis aliquid cupiditate officiis unde omnis explicabo repellat, dolor eos magnam, distinctio id iure?</p>
+    </main>
+    
+</body>
+</html>
