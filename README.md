@@ -1,2 +1,7 @@
 # DIW6
-Practica Interfaz
+
+## Laura Martinez Hiraldo
+### Ficheros que contiene el *proyecto*
+
+- **index.html**
+- **style.css**
